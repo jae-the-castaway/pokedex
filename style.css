@@ -1,0 +1,111 @@
+/* General section */
+
+ 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f4f4f4;
+    padding: 0 10vw;
+}
+
+.container {
+    border-radius: 20px;
+    box-shadow: #e4e4e4 0 10px 10px;
+    background-color: white;
+    padding: 15px;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2, h3, p, div{
+    font-family: 'Rubik', sans-serif;
+}
+
+
+/* Headline and search bar section */
+h1 {
+    font-family: 'Silkscreen', cursive;
+    text-align: center;
+    padding: 5px;
+    margin: 20px;
+}
+.search {
+    margin: 40px 0 60px;
+}
+
+#search-input {
+    flex: 1;
+}
+
+/* pokedex section */
+
+li {
+    list-style-type: none;
+    flex-direction: column;
+    flex: 1;
+}
+
+
+#pokedex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    padding-inline-start: 0px;
+}
+
+
+/* Card section */
+
+.card {
+    margin: 20px 10px 30px;
+    padding: 50px 3% 3%;
+    /* height: 200px; */
+}
+
+.card > * {
+    padding: 3px 0;
+}
+
+.card-image {
+    position: absolute;
+    image-rendering: pixelated;
+    margin-top: -170px;
+}
+
+h2 {
+    font-size: 0.7em;
+    font-weight: 400;
+    color: #989898;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+.type {
+    font-size: 0.7em;
+}
+
+.type-container {
+    padding: 5px 7px;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 0.7em;
+    font-weight: 400;
+}
+
+.card-type {
+    width: 100px;
+}
+
+.type-container {
+    color: #fafafa;
+}
